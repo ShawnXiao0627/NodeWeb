@@ -5,8 +5,8 @@
 
 var express = require('express');
 
-var user = require('./routes/user');
 var http = require('http');
+var user = require('./routes/user');
 var path = require('path');
 var partials = require('express-partials');
 var MongoStore = require('connect-mongo')(express);
